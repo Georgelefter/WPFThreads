@@ -1,6 +1,6 @@
 # WPFThreads
 
-# Consegna
+## Consegna
 
 Bisogna visualizzare un conteggio utilizzando le istruzioni multithread
 
@@ -14,7 +14,7 @@ Si preveda un quarto TextBlock che visualizzi il totale dei tre contatori (alla 
 
 Come ultima cosa abbiamo bisogno di un pulsante "Start" per far partire i conteggi e che rimanga disattivato durante il conteggio e  che si riattivi alla fine
 
-#Introduzione
+## Introduzione
 
 Come prima cosa dobbiamo creare un nuovo progetto
 
