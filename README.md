@@ -21,43 +21,37 @@ Come prima cosa dobbiamo creare un nuovo progetto
 ![Screenshot 2023-04-16 002455](https://user-images.githubusercontent.com/116788494/234233686-d4239a24-e1c4-4120-ad67-88cd0d17b411.png)
 
 Dopo aver scelto il tipo di applicazione che vogliamo fare bisogna anche scegliere la versione di dotnet più adatta alle nostre esigenze
+
 ![image](https://user-images.githubusercontent.com/116788494/234234142-a861b746-4ed6-4d08-b112-ecf9db810f27.png)
 
 Dopo aver creato il file utilizzeremo delle linee di codice per creare  delle righe,colonne e i 2 button neccessari per svolgere il lavoro richiesto
 
-
- > <Grid>
-> <Grid.RowDefinitions>
-> <RowDefinition></RowDefinition>
->  ><RowDefinition></RowDefinition>
-> <RowDefinition></RowDefinition>
-> </Grid.RowDefinitions>
-> <Grid.ColumnDefinitions> // elemento di "Grid"
-> <ColumnDefinition></ColumnDefinition> // elemento di "Grid.ColumnDefinitions"
-> <ColumnDefinition></ColumnDefinition>
-> <ColumnDefinition></ColumnDefinition>
-> </Grid.ColumnDefinitions>
-> <Button Height="100" Grid.Row="1" Grid.Column="1" Width="200" > Bottone
-> 1</Button>
-> <Button Height="50" Width="100">Bottone 2</Button>
-> </Grid>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ![image](https://user-images.githubusercontent.com/116788494/234235484-043a09a8-5720-4a18-8c86-7e1bf8760ab0.png)
+
+
+ <Grid>
+ <Grid.RowDefinitions>
+ <RowDefinition></RowDefinition>
+ <RowDefinition></RowDefinition>
+ <RowDefinition></RowDefinition>
+ </Grid.RowDefinitions>
+ <Grid.ColumnDefinitions>
+ <ColumnDefinition></ColumnDefinition>
+ <ColumnDefinition></ColumnDefinition>
+ <ColumnDefinition></ColumnDefinition>
+ </Grid.ColumnDefinitions>
+ <Button Height="100" Grid.Row="1" Grid.Column="1" Width="200" > </Button>
+ <Button Height="50" Width="100">
+ </Button>
+ </Grid>
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
 
 
