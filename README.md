@@ -26,9 +26,9 @@ Dopo aver scelto il tipo di applicazione che vogliamo fare bisogna anche sceglie
 
 Dopo aver creato il file utilizzeremo delle linee di codice per creare  delle righe,colonne e i 2 button neccessari per svolgere il lavoro richiesto
 
-![image](https://user-images.githubusercontent.com/116788494/234235484-043a09a8-5720-4a18-8c86-7e1bf8760ab0.png)
 
 
+``` xml
  <Grid>
  <Grid.RowDefinitions>
  <RowDefinition></RowDefinition>
@@ -45,9 +45,10 @@ Dopo aver creato il file utilizzeremo delle linee di codice per creare  delle ri
  </Button>
  </Grid>
  
+ ```
  
  
- 
+ ![image](https://user-images.githubusercontent.com/116788494/234235484-043a09a8-5720-4a18-8c86-7e1bf8760ab0.png)
  
  
 
